@@ -4,6 +4,7 @@
 <br>Roll: 23IE10004
 <br>Discord Username: animesh958
 <br>MyAnimeList Profile Link:https://myanimelist.net/profile/wildcraft958
+INSTRUCTION: open index.html
 <br>Tech experience-- Thinking of my tech experience i know front end part and currently trying to learn C [ but KGP is stopping me as usual :) ] and note currently i have phy sem.
 <br>TASK STORY: so yeah talking about this task i received mail on 9th but as i am in SWG and  NSSC i had a busy schedule also i havent studied and attended any classes other than labs and ET  in august so i had to watch lectures initially i was not thinking of doing task a  i  wasnt not able to take out time and mid sem were coming 
 but on friday i was going through my mails i saw MASK mail and i had a  flashback <h2>Reiner: "As a warrior no road left but the one that leads to the very end"</h2>
