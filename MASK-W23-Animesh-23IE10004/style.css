@@ -110,6 +110,7 @@ padding-right: 3%;
 	animation-duration: 25s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
+  font-family: 'jkf';
 }
 
 .item-1{
@@ -154,4 +155,9 @@ footer{
     margin-bottom: 20px;
     padding-left: 40px;
     border-color: #a9a9a9;
+}
+@font-face {
+  font-family: 'jkf';
+  src: url('jkf.woff');
+
 }
