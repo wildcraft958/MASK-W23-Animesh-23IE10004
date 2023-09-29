@@ -84,6 +84,10 @@ button:hover, a:hover {
     to { width: 100% }
   }
 @font-face {
+	font-family: "JJK";
+	src: url('Jujutsu\ Kaisen.ttf');
+}
+@font-face {
     font-family: 'Bruce Forever Regular';
     font-style: normal;
     font-weight: normal;
@@ -143,6 +147,7 @@ padding-right: 3%;
   100% { left: 110%; opacity: 0; }
 }
 footer{
+	font-family: "JJK";
     border-style: solid;
     margin-top: 10px;
     margin-right: auto;
