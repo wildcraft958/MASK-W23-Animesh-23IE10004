@@ -1,3 +1,27 @@
+*{margin: 0%;
+padding: 0;}
+
+
+.preloader{
+  background: #000 url(ezgif-2-5763e2f602.gif) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  z-index: 100;
+  background-size: 20%;
+  
+}
+.disappear{
+  animation: vanish 1s forwards;
+}
+@keyframes vanish {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 body{
   background-position: center;
   background-repeat: no-repeat;
@@ -8,6 +32,8 @@ body{
   
 
 }
+
+
 
 .card {
     margin-right: auto;
@@ -20,6 +46,14 @@ body{
     background-color: rgba(255, 255, 255, 0.2);
     padding: 10px;
     text-align: center;
+    transform: 0.2s;
+
+}
+.card:hover{
+
+transform: scale(1.02);
+background-color: rgba(129, 124, 124, 0.2);
+
 }
 .img1{
     border-radius: 8px;
@@ -59,7 +93,7 @@ a {
 }
 
 button:hover, a:hover {
-  opacity: 0.7;
+opacity: 0.7;
 }
 .my1 {
     font-family: 'Bruce Forever Regular';
@@ -71,7 +105,7 @@ button:hover, a:hover {
     white-space: nowrap;
     width: 0;
     animation: typing;
-    animation-duration: 2.8s;
+    animation-duration:750ms;
     animation-timing-function: steps(30, end);
     animation-fill-mode: forwards;
 }
@@ -83,6 +117,10 @@ button:hover, a:hover {
     from { width: 0 }
     to { width: 100% }
   }
+@font-face {
+	font-family: "JJK";
+	src: url('Jujutsu\ Kaisen.ttf');
+}
 @font-face {
     font-family: 'Bruce Forever Regular';
     font-style: normal;
@@ -110,6 +148,7 @@ padding-right: 3%;
 	animation-duration: 25s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
+  font-family: 'jkf';
 }
 
 .item-1{
@@ -142,6 +181,7 @@ padding-right: 3%;
   100% { left: 110%; opacity: 0; }
 }
 footer{
+	font-family: "JJK";
     border-style: solid;
     margin-top: 10px;
     margin-right: auto;
@@ -154,4 +194,9 @@ footer{
     margin-bottom: 20px;
     padding-left: 40px;
     border-color: #a9a9a9;
+}
+@font-face {
+  font-family: 'jkf';
+  src: url('jkf.woff');
+
 }
